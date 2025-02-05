@@ -1,0 +1,56 @@
+Disease caused: Belly rot
+
+Belly rot in cucumbers, caused by the fungal pathogen Rhizoctonia solani, typically develops when cucumbers remain in prolonged contact with moist soil.
+
+Treatment
+
+1. Initial Stage: Prevention and Early Control
+At the first signs of belly rot (small, water-soaked spots on the fruit), quick action is necessary to prevent further infection and protect unaffected cucumbers.
+
+Cultural Practices:
+✅ Improve Soil Drainage: Ensure proper water drainage to avoid excessive moisture.
+✅ Use Mulching: Apply straw, plastic, or dry leaves as mulch to prevent cucumbers from touching wet soil.
+✅ Adjust Irrigation: Water at the base of the plant in the morning to allow the soil to dry before nightfall.
+✅ Increase Air Circulation: Space plants properly and prune excess leaves to enhance airflow.
+
+Chemical Control in the Initial Stage:
+Copper Oxychloride (50% WP) – Mix 2-3 g per liter of water and spray on plants and soil.
+Chlorothalonil (75% WP) – Mix 2 g per liter of water and apply to affected areas.
+Bacillus subtilis (Biofungicide) – Mix 5 ml per liter and use as a soil drench for a biological approach.
+📌 Application Frequency: Every 7-10 days if symptoms persist.
+
+2. Mid-Stage: Containment and Recovery
+If the infection spreads, it is essential to contain the disease and limit damage to fruit and plants.
+
+Field Management:
+✔️ Remove Infected Fruits: Discard rotting cucumbers to prevent fungal spores from spreading.
+✔️ Rotate Crops: Avoid planting cucumbers or similar crops (melon, squash) in the same area for consecutive seasons.
+✔️ Improve Soil Health: Mix organic compost and Trichoderma-based biofungicides into the soil to reduce fungal activity.
+
+Fungicide Application for Containment:
+Azoxystrobin (23% SC) – Use 1 ml per liter and spray on plants and soil to protect unaffected cucumbers.
+Fludioxonil (25% SC) – Use 0.5–1 ml per liter as a soil drench or foliar spray.
+Mancozeb (75% WP) – Use 2.5 g per liter as a protective measure.
+📌 Repeat spraying every 7 days until symptoms stop progressing.
+
+3. Final Stage: Stopping the Disease Before Harvest
+If belly rot has reached an advanced stage, the focus shifts to minimizing losses and ensuring safe harvest practices.
+
+Final Management Steps:
+🔹 Limit Further Spraying: Stop chemical fungicide application at least 15 days before harvest to avoid residue contamination.
+🔹 Harvest Healthy Fruits Early: Picking cucumbers a bit earlier reduces exposure to soil and fungal infection.
+🔹 Post-Harvest Cleaning: Wash harvested cucumbers in a mild potassium permanganate solution to kill any lingering fungal spores.
+🔹 Field Sanitation: After the season, remove infected plant debris and disinfect soil using solarization (covering soil with plastic sheets to trap heat and kill pathogens).
+
+Herbicide Use from Initial to Final Stages
+Weed control is also essential to reduce fungal spread, as weeds can harbor belly rot pathogens.
+
+Pre-Emergence Herbicide (Before Weeds Appear)
+Pendimethalin (30% EC): Use 1-1.5 liters per acre mixed with 200-250 liters of water and spray evenly on the soil before cucumber seedlings emerge.
+Post-Emergence Herbicides (For Growing Weeds)
+Oxyfluorfen (23.5% EC): Apply 300-400 ml per acre to control young weeds.
+Glyphosate (41% SL): Use 1-1.5 liters per acre for weeds in non-crop areas (avoid direct contact with cucumbers).
+Paraquat (24% SL): Use 500 ml per acre in between rows but avoid spraying on cucumber plants.
+Final Stage Weed Management:
+Manually remove weeds near the harvest period to avoid herbicide residues on cucumbers.
+Use organic mulches to suppress weed growth instead of chemical herbicides.

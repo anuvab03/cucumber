@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Tabs</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        h1.brandname {
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            background-color: #333;
+        }
+
+        nav ul li {
+            flex: 1;
+        }
+
+        nav ul li a {
+            display: block;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            color: white;
+            background-color: #333;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+        }
+        .active {
+            background-color: #4CAF50;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 20px;
+            background-color: #f4f4f4;
+            margin-top: 10px;
+        }
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="brandname">AGRIYODHA</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="tab-link active" data-tab="home">Home</a></li>
+            <li><a href="#" class="tab-link" data-tab="upload">Upload Image</a></li>
+            <li><a href="#" class="tab-link" data-tab="about">About</a></li>
+            <li><a href="#" class="tab-link" data-tab="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div id="home" class="tab-content active">
+            <p>At Agriyodha, we aim to revolutionize agriculture with innovative, sustainable solutions that empower farmers and agribusinesses, driving growth, productivity, and sustainability through advanced technology and resources.</p>
+        </div>
+
+        <div id="upload" class="tab-content">
+            <h2>Upload an Image</h2>
+            <input type="file" id="imageInput" accept="image/*">
+            <br>
+            <img id="preview" style="display:none;" />
+            <textarea id="output" placeholder="Your output will appear here..."></textarea>
+        </div>
+
+        <div id="about" class="tab-content">
+            <h2>About Us</h2>
+            <p>Agriyodha is dedicated to transforming agriculture with innovative, sustainable solutions.</p>
+        </div>
+
+        <div id="contact" class="tab-content">
+            <h2>Contact Us</h2>
+            <p>Feel free to get in touch with us via email or phone.</p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tabLinks = document.querySelectorAll('.tab-link');
+            const tabContents = document.querySelectorAll('.tab-content');
+
+            tabLinks.forEach(link => {
+                link.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    tabLinks.forEach(link => link.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.remove('active'));
+                    link.classList.add('active');
+                    document.getElementById(link.getAttribute('data-tab')).classList.add('active');
+                });
+            });
+
+            document.getElementById('imageInput').addEventListener('change', function(event) {
+                const file = event.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const preview = document.getElementById('preview');
+                        preview.src = e.target.result;
+                        preview.style.display = 'block';
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
